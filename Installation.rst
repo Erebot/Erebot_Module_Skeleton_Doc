@@ -129,7 +129,7 @@ using these commands:
     http://pear.php.net/package/PEAR
 ..  _`Pyrus`:
     http://pyrus.net/
-..  _`PEAR channel`:
+..  _`Erebot's PEAR channel`:
     https://pear.erebot.net/
 ..  _`gettext`:
     http://www.gnu.org/s/gettext/
