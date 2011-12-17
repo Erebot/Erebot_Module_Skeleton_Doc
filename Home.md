@@ -1,1 +1,0 @@
-Welcome to the Erebot_Module_Skeleton wiki!
