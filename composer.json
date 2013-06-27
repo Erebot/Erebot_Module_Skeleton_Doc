@@ -1,0 +1,36 @@
+{
+    "name": "erebot/generic-doc",
+    "type": "erebot-generic-doc",
+    "description": "Generic documentation for Erebot modules",
+    "keywords": ["Erebot", "IRC", "bot", "doc", "documentation"],
+    "homepage": "https://github.com/Erebot/Erebot_Module_Skeleton",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "François Poirotte",
+            "email": "clicky@erebot.net",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "email": "erebot@erebot.net",
+        "issues": "https://github.com/Erebot/Erebot_Module_Skeleton/issues",
+        "wiki": "http://erebot.github.io/Erebot_Module_Skeleton/",
+        "irc": "irc://irc.iiens.net/Erebot",
+        "source": "https://github.com/Erebot/Erebot_Module_Skeleton"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.erebot.net"
+        }
+    ],
+    "require": {
+        "erebot/installers": "dev-master"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
