@@ -13,9 +13,12 @@ the tools provided by your distribution:
     $ urpmi git
 
 ..  note::
+
     Windows users may be interested in installing `Git for Windows`_ to get
     an equivalent git client. Also, make sure that ``git.exe`` is present
     on your account's ``PATH``. If not, you'll have to replace ``git`` by
     the full path to ``git.exe`` on every invocation
     (eg. ``"C:\Program Files\Git\bin\git.exe" clone ...``)
 
+..  _`Git for Windows`:
+    http://code.google.com/p/msysgit/downloads/list

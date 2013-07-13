@@ -5,12 +5,14 @@ This pages contains instructions on how to install this module on your machine.
 There are several ways to achieve that. Each method is described below.
 
 ..  warning::
+
     You cannot mix the different methods. Especially, **you must use the same
     method to install this module as the one you selected for Erebot itself**.
 
 ..  contents::
 
 ..  note::
+
     We recommend that you install this module using either its
     :ref:`PHAR package <Installation using PHAR packages>`
     or through :ref:`composer <Installation through composer>`_.
@@ -57,6 +59,7 @@ As a special shortcut, the following link always points to the latest snapshot
 of |project|: |project_latest|.
 
 ..  warning::
+
     Using the latest snapshot available means that you may benefit from
     very recent developments, but it also means that the code may be in
     an unstable state. Use at your own risk.
@@ -120,6 +123,7 @@ Now, clone the module's repository:
     $ git clone git://github.com/Erebot/|project|.git
 
 ..  note::
+
     Linux users (especially Erebot developers) may prefer to create a separate
     checkout for each component and then use symbolic links to join them
     together, like this:
@@ -157,8 +161,6 @@ using these commands:
     http://www.gnu.org/s/gettext/
 ..  _`Phing`:
     http://www.phing.info/
-..  _`Git for Windows`:
-    http://code.google.com/p/msysgit/downloads/list
 ..  _`Erebot's prerequisites`:
     /Erebot/Prerequisites.html
 ..  _`prerequisites`:
