@@ -11,13 +11,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Erebot/Erebot_Installers.git",
-                "reference": "31b8fa3309ddb665203c73e082913dcb7a96ac01"
+                "reference": "b20c804c270bc6cb51923a6f81cc1ad3b6b09272"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://packages.erebot.net:943/composer/erebot-installers-31b8fa3309ddb665203c73e082913dcb7a96ac01-zip-7f8f45.tar",
+                "url": "https://packages.erebot.net:943/composer/erebot-installers-b20c804c270bc6cb51923a6f81cc1ad3b6b09272-zip-2d1a72.tar",
                 "reference": "dev-master",
-                "shasum": "d038e3eb2674e3909da02565c291f9c32476f189"
+                "shasum": "dcf901c8a8ffd3619092c2c5a15de51cf7fb4fbc"
             },
             "type": "composer-installer",
             "extra": {
@@ -55,7 +55,7 @@
                 "irc": "irc://irc.iiens.net/Erebot",
                 "source": "https://github.com/Erebot/Erebot_Installers"
             },
-            "time": "2013-06-27 20:32:04"
+            "time": "2013-06-27 21:08:41"
         }
     ],
     "packages-dev": [
