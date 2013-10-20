@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "3d1248d477198696cefab2c205a3e220",
+    "hash": "bcbf61c04fbcd9674207338f92bb894e",
     "packages": [
         {
             "name": "erebot/installers",
@@ -14,10 +14,10 @@
                 "reference": "b20c804c270bc6cb51923a6f81cc1ad3b6b09272"
             },
             "dist": {
-                "type": "tar",
-                "url": "https://packages.erebot.net:943/composer/erebot-installers-b20c804c270bc6cb51923a6f81cc1ad3b6b09272-zip-2d1a72.tar",
-                "reference": "dev-master",
-                "shasum": "dcf901c8a8ffd3619092c2c5a15de51cf7fb4fbc"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Erebot/Erebot_Installers/zipball/b20c804c270bc6cb51923a6f81cc1ad3b6b09272",
+                "reference": "b20c804c270bc6cb51923a6f81cc1ad3b6b09272",
+                "shasum": ""
             },
             "type": "composer-installer",
             "extra": {
@@ -31,6 +31,7 @@
                     "Erebot\\Composer": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0+"
             ],
@@ -45,16 +46,10 @@
             "homepage": "https://github.com/Erebot/Erebot_Installers",
             "keywords": [
                 "Erebot",
-                "IRC",
                 "bot",
-                "installers"
+                "installers",
+                "irc"
             ],
-            "support": {
-                "email": "erebot@erebot.net",
-                "issues": "https://github.com/Erebot/Erebot_Installers/issues",
-                "irc": "irc://irc.iiens.net/Erebot",
-                "source": "https://github.com/Erebot/Erebot_Installers"
-            },
             "time": "2013-06-27 21:08:41"
         }
     ],

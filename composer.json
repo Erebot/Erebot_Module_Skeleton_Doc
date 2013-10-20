@@ -19,12 +19,6 @@
         "irc": "irc://irc.iiens.net/Erebot",
         "source": "https://github.com/Erebot/Erebot_Module_Skeleton"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://packages.erebot.net"
-        }
-    ],
     "require": {
         "erebot/installers": "dev-master"
     },
