@@ -15,7 +15,7 @@ There are several ways to achieve that. Each method is described below.
 
     We recommend that you install this module using either its
     :ref:`PHAR package <Installation using PHAR packages>`
-    or through :ref:`composer <Installation through composer>`_.
+    or through :ref:`composer <Installation through composer>`.
     Installation from sources is reserved for advanced installations
     (eg. Erebot developers).
 
