@@ -20,7 +20,7 @@
         "source": "https://github.com/Erebot/Erebot_Module_Skeleton"
     },
     "require": {
-        "erebot/installers": "dev-master"
+        "erebot/installers": "*"
     },
     "extra": {
         "branch-alias": {

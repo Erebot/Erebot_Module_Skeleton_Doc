@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bcbf61c04fbcd9674207338f92bb894e",
+    "hash": "9cf3c70c2671436f00a88607cfaa4a46",
     "packages": [
         {
             "name": "erebot/installers",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Erebot/Erebot_Installers.git",
-                "reference": "b20c804c270bc6cb51923a6f81cc1ad3b6b09272"
+                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/Erebot_Installers/zipball/b20c804c270bc6cb51923a6f81cc1ad3b6b09272",
-                "reference": "b20c804c270bc6cb51923a6f81cc1ad3b6b09272",
+                "url": "https://api.github.com/repos/Erebot/Erebot_Installers/zipball/11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
+                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
                 "shasum": ""
             },
             "type": "composer-installer",
@@ -50,7 +50,7 @@
                 "installers",
                 "irc"
             ],
-            "time": "2013-06-27 21:08:41"
+            "time": "2013-10-20 20:39:40"
         }
     ],
     "packages-dev": [
@@ -60,9 +60,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "erebot/installers": 20
-    },
+    "stability-flags": [
+
+    ],
     "platform": [
 
     ],
