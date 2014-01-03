@@ -3,11 +3,11 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9cf3c70c2671436f00a88607cfaa4a46",
+    "hash": "921857cf0232224114d8c31656fa4cc5",
     "packages": [
         {
             "name": "erebot/installers",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Erebot/Erebot_Installers.git",
@@ -59,7 +59,7 @@
     "aliases": [
 
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [
 
     ],

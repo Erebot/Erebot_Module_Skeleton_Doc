@@ -1,4 +1,5 @@
 {
+    "minimum-stability": "dev",
     "name": "erebot/generic-doc",
     "type": "erebot-generic-doc",
     "description": "Generic documentation for Erebot modules",
