@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "921857cf0232224114d8c31656fa4cc5",
+    "hash": "c6e4e16782ce0fae46a402d23258468a",
     "packages": [
         {
             "name": "erebot/installers",
@@ -11,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Erebot/Erebot_Installers.git",
-                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce"
+                "reference": "8c73f6d95757d5aa863bf7b7c4213586c6cacc28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/Erebot_Installers/zipball/11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
-                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
+                "url": "https://api.github.com/repos/Erebot/Erebot_Installers/zipball/8c73f6d95757d5aa863bf7b7c4213586c6cacc28",
+                "reference": "8c73f6d95757d5aa863bf7b7c4213586c6cacc28",
                 "shasum": ""
             },
             "type": "composer-installer",
@@ -27,8 +28,8 @@
                 "class": "Erebot\\Composer\\GenericDocInstaller"
             },
             "autoload": {
-                "psr-0": {
-                    "Erebot\\Composer": "src/"
+                "psr-4": {
+                    "Erebot\\Composer\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -50,23 +51,15 @@
                 "installers",
                 "irc"
             ],
-            "time": "2013-10-20 20:39:40"
+            "time": "2015-03-29 11:41:36"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ],
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
 }

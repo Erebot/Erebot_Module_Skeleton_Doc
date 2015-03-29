@@ -4,7 +4,7 @@
     "type": "erebot-generic-doc",
     "description": "Generic documentation for Erebot modules",
     "keywords": ["Erebot", "IRC", "bot", "doc", "documentation"],
-    "homepage": "https://github.com/Erebot/Erebot_Module_Skeleton",
+    "homepage": "https://github.com/Erebot/GenericDoc",
     "license": "GPL-3.0+",
     "authors": [
         {
@@ -15,10 +15,9 @@
     ],
     "support": {
         "email": "erebot@erebot.net",
-        "issues": "https://github.com/Erebot/Erebot_Module_Skeleton/issues",
-        "wiki": "http://erebot.github.io/Erebot_Module_Skeleton/",
+        "issues": "https://github.com/Erebot/GenericDoc/issues",
         "irc": "irc://irc.iiens.net/Erebot",
-        "source": "https://github.com/Erebot/Erebot_Module_Skeleton"
+        "source": "https://github.com/Erebot/GenericDoc"
     },
     "require": {
         "erebot/installers": "*"
