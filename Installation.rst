@@ -91,7 +91,7 @@ downloaded from |project_latest_pubkey|.
 ..  warning::
 
     Although PHP automatically checks the integrity of cryptographically
-    signed phar archives when they are loaded using the signature file, 
+    signed phar archives when they are loaded using the signature file,
     you may also check an archive manually by using the :command:`phar`
     command provided with the phar extension.
 
@@ -174,7 +174,30 @@ for this method to work.
 
 First, make sure the git client is installed on your machine.
 
-..  include:: Installation_git.inc
+Under Linux, **from a root shell**, run the command that most closely matches
+the tools provided for your distribution:
+
+..  parsed-code:: bash
+
+    # For apt-based distributions such as Debian or Ubuntu
+    $ apt-get install git
+
+    # For yum-based distributions such as Fedora, RHEL (RedHat) or CentOS
+    $ yum install git
+
+    # For urpmi-based distributions such as SLES (SuSE) or MES (Mandriva)
+    $ urpmi git
+
+..  note::
+
+    Windows users may be interested in installing `Git for Windows`_ to get
+    an equivalent git client. Also, make sure that the path to :file:`git.exe`
+    is present on your account's :envvar:`PATH`.
+    Otherwise, you'll have to replace :command:`git` with the full path to
+    :file:`git.exe` on every invocation. Eg. :
+
+    :samp:`"{C:\\Program Files\\Git\\bin\\}git.exe" clone ...`
+
 
 Now, clone the module's repository:
 
@@ -207,6 +230,8 @@ configuration file.
     ../Prerequisites.html
 ..  _`configuration options`:
     ../Configuration.html
+..  _`Git for Windows`:
+    http://msysgit.github.io/
 
 .. vim: ts=4 et
 
