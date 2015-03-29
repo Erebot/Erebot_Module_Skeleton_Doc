@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011-2015, Erebot
+# This file is distributed under the same license as the Erebot package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Erebot 1.0.x-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-29 12:06+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/generic/Installation.rst:10
+# c3ff03ef136743a9b61c58b127e45799
+msgid "Installation"
+msgstr ""
+
+#: ../src/generic/Installation.rst:12
+# 55dec17daea14fbabed545aeba6a9ba6
+msgid "This pages contains instructions on how to install this module on your machine. There are several ways to achieve that. Each method is described below."
+msgstr ""
+
+#: ../src/generic/Installation.rst:17
+# a86b53be66ba42718b6ff808cf888a1d
+msgid "You cannot mix the different methods. Especially, **you must use the same method to install this module as the one you selected for Erebot itself**."
+msgstr ""
+
+#: ../src/generic/Installation.rst:24
+# 9138eb9b792948f6bc93ab89cee32c5d
+msgid "We recommend that you install this module using either its :ref:`PHAR package <install_phar>` or through :ref:`composer <install_composer>`. Installation from sources is reserved for advanced installations (eg. Erebot developers)."
+msgstr ""
+
+#: ../src/generic/Installation.rst:34
+# ddab384e69a14ceaa1fb3ba10974382d
+msgid "Installation using PHAR packages"
+msgstr ""
+
+#: ../src/generic/Installation.rst:36
+# 4a46bfc939e940069d07e1bfbee31144
+msgid "Installing |project| from a PHAR package is very easy. However, please note that Erebot must have been installed as a PHAR package for this method to work properly."
+msgstr ""
+
+#: ../src/generic/Installation.rst:43
+# 42bb056249724a38b0d8bc415a7008ba
+msgid "Preparations"
+msgstr ""
+
+#: ../src/generic/Installation.rst:45
+# cf8b339fb6254ffaa1ef0ab3c05e6ea8
+msgid "If you haven't done so already, create a directory in Erebot's folder named ``modules``."
+msgstr ""
+
+#: ../src/generic/Installation.rst:48
+# cc65413871a545a6ae8a271c1588bcb6
+msgid "Hence, your tree should look like this:"
+msgstr ""
+
+#: ../src/generic/Installation.rst:52
+# 3d51cdb3698749e080377b1b2931325c
+msgid "Erebot/"
+msgstr ""
+
+#: ../src/generic/Installation.rst:51
+# db27b08a2c664ea68cd9207781832bcd
+msgid "Erebot-X.Y.Z.phar"
+msgstr ""
+
+#: ../src/generic/Installation.rst:52
+# 2314ea5466af48dbbb5efff8aae5fb6f
+msgid "modules/"
+msgstr ""
+
+#: ../src/generic/Installation.rst:54
+# ea015442b49b454eac86ce5f6b87a8e9
+msgid "Also, make sure your installation fulfills all of the :ref:`prerequisites` for this module."
+msgstr ""
+
+#: ../src/generic/Installation.rst:58
+# 95b9709c8d6046e9968c2986a7313137
+msgid "Downloading the package"
+msgstr ""
+
+#: ../src/generic/Installation.rst:60
+# 493ddeda26e14b639a8608bb40f154e3
+msgid "First, select the version you want to install. Available versions are listed on `Erebot's package repository <https://packages.erebot.net/>`."
+msgstr ""
+
+#: ../src/generic/Installation.rst:63
+# a461ecf13dde49958995c024eaf152d5
+msgid "The PHAR package for a certain version can be downloaded by using a URL such as |project_version| (replace `version` with the actual version you selected)."
+msgstr ""
+
+#: ../src/generic/Installation.rst:67
+# 0a0f6fe21df641b887b4a4be065c8f00
+msgid "As a special shortcut, the following link always points to the latest snapshot of |project|: |project_latest|."
+msgstr ""
+
+#: ../src/generic/Installation.rst:72
+# 9167d06603f14613905720d4d6dbf171
+msgid "Using the latest snapshot available means that you may benefit from very recent developments, but it also means that the code may be in an unstable state. Use at your own risk."
+msgstr ""
+
+#: ../src/generic/Installation.rst:76
+# da138eb7d37846279b9756b0afda6336
+msgid "The PHAR package must be downloaded to your installation's :file:`modules/` directory."
+msgstr ""
+
+#: ../src/generic/Installation.rst:80
+# ae7727b5d347410cb480634a43c96a28
+msgid "Downloading the package's signature"
+msgstr ""
+
+#: ../src/generic/Installation.rst:82
+# 1487337f62414b71b3c819f9a7b28e60
+msgid "All the packages delivered by Erebot's developers are cryptographically signed using the \"OpenSSL\" algorithm in PHP's Phar extension. This signature is used to detect corrupted packages and packages that have been tampered with."
+msgstr ""
+
+#: ../src/generic/Installation.rst:87
+# 6e0ff68440ac4cdf84e95f11ed0aee69
+msgid "You must retrieve the signature corresponding to the version of the PHAR package you downloaded and put it alongside the package. The signature can be downloaded by appending ``.pubkey`` at the end of the link to the package itself. Therefore, the signature for the latest version can be downloaded from |project_latest_pubkey|."
+msgstr ""
+
+#: ../src/generic/Installation.rst:95
+# 7e67c3ccd9494e5f8add88a9fe7abc7d
+msgid "PHP automatically checks the integrity of signed PHAR packages when they are loaded. Neither the name of the PHAR package nor the name of the signature file should be altered, as the integrity check would then fail."
+msgstr ""
+
+#: ../src/generic/Installation.rst:101
+# e7303715c16a4535a75c203b49e1b6d4
+msgid "Although PHP automatically checks the integrity of cryptographically signed phar archives when they are loaded using the signature file, you may also check an archive manually by using the :command:`phar` command provided with the phar extension."
+msgstr ""
+
+#: ../src/generic/Installation.rst:106
+# 342b475e1ad141328fc6eb69bb214f28
+msgid "For example, the following session shows a passing result."
+msgstr ""
+
+#: ../src/generic/Installation.rst:115
+# 5f358aab43d9404cb91fbcf0da0967e2
+msgid "Note how the \"Hash-type\" field indicates that the \"OpenSSL\" algorithm has been used to sign the archive. **Any other value should be considered as if the check had failed**, unless the package was downloaded from Erebot's website over a secure (SSL/TLS) connection."
+msgstr ""
+
+#: ../src/generic/Installation.rst:120
+# 21a710ed2754450aa83574ff3fe20138
+msgid "On the other hand, the following example shows a session where the verification failed."
+msgstr ""
+
+#: ../src/generic/Installation.rst:130
+# c6dd61e20e9e40aeb30f4754783d56ec
+msgid "Conclusion"
+msgstr ""
+
+#: ../src/generic/Installation.rst:132
+# 555c7ed5434e45caacce4a19f1a99cd7
+msgid "Once the PHAR package and its signature have been downloaded, your installation should look somewhat like that:"
+msgstr ""
+
+#: ../src/generic/Installation.rst:143
+# c80c83b323454ff8bc5a76470c58778b
+msgid "That's all folks! You may now add :ref:`configuration options <configuration>` for this module in Erebot's configuration file."
+msgstr ""
+
+#: ../src/generic/Installation.rst:150
+# 9c65896f8f12418f9ddd94623216fa98
+msgid "Installation through Composer"
+msgstr ""
+
+#: ../src/generic/Installation.rst:152
+# 447d9184a510452c96215f9ec649c217
+msgid "Installation through `Composer <http://getcomposer.org/>` is very easy. However, please note that Erebot itself must have been installed using Composer for this method to work properly."
+msgstr ""
+
+#: ../src/generic/Installation.rst:156
+# 12a967bc5c8a441393c1c3b7cbb94850
+msgid "To install the new module:"
+msgstr ""
+
+#: ../src/generic/Installation.rst:158
+# 53432fcab4a8446fafeb713c8d41126e
+msgid "Go to the directory where you installed Erebot."
+msgstr ""
+
+#: ../src/generic/Installation.rst:159
+# cc7fcaf214a34f5ba38650d54a6cdf78
+msgid "Add the module to your installation's dependencies with:"
+msgstr ""
+
+#: ../src/generic/Installation.rst:167
+#: ../src/generic/Installation.rst:203
+# 1cbcc8a5b4dd42e187f367432cdd6981
+# 3457e718def549dbade09230d563f9db
+msgid "You may now add :ref:`configuration options <configuration>` for this module in Erebot's configuration file."
+msgstr ""
+
+#: ../src/generic/Installation.rst:172
+# 339658f240b349e1a3d2693f7c39955d
+msgid "Installation from source"
+msgstr ""
+
+#: ../src/generic/Installation.rst:174
+# 213d3a69eaa9443d951317c5c6b4fc8c
+msgid "Please note that Erebot itself must have been installed from source for this method to work."
+msgstr ""
+
+#: ../src/generic/Installation.rst:179
+# d61b145cc7514b8b9fb2a3bd47a80ec5
+msgid "This method exists only for the sake of running Erebot on the now deprecated PHP 5.2.x. Also, please note that depending on your environment, other actions than the ones described here may be required to make this module work properly."
+msgstr ""
+
+#: ../src/generic/Installation.rst:183
+# 198ec685d9e14e90b6c66a4005df29a0
+msgid "First, make sure the git client is installed on your machine."
+msgstr ""
+
+#: ../src/generic/Installation_git.inc:1
+# 47f6dc82f9724f4ca74d6170b56b7351
+msgid "Under Linux, **from a root shell**, run the command that most closely matches the tools provided for your distribution:"
+msgstr ""
+
+#: ../src/generic/Installation_git.inc:17
+# 7be939acae284d4c851380b27aaf119f
+msgid "Windows users may be interested in installing `Git for Windows`_ to get an equivalent git client. Also, make sure that the path to :file:`git.exe` is present on your account's :envvar:`PATH`. Otherwise, you'll have to replace :command:`git` by the full path to :file:`git.exe` on every invocation. Eg. :"
+msgstr ""
+
+#: ../src/generic/Installation_git.inc:23
+# 1b14f174de81417789104cfd536f5c42
+msgid ":samp:`\"{C:\\\\Program Files\\\\Git\\\\bin\\\\}git.exe\" clone ...`"
+msgstr ""
+
+#: ../src/generic/Installation.rst:187
+# 1f2446a0d7844dcba0cf19ba09d56ea1
+msgid "Now, clone the module's repository:"
+msgstr ""
+
+#: ../src/generic/Installation.rst:195
+# 04b69ff7ae684257b840478b358374c3
+msgid "Last but not least, install the rest of this module's :ref:`prerequisites` and then run:"
+msgstr ""
+

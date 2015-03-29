@@ -1,0 +1,378 @@
+# English translations for Erebot package.
+# Copyright (C) 2011-2015, Erebot
+# This file is distributed under the same license as the Erebot package.
+# Automatically generated, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Erebot 1.0.x-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-29 12:06+0200\n"
+"PO-Revision-Date: 2015-03-29 12:06+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# c3ff03ef136743a9b61c58b127e45799
+#: ../src/generic/Installation.rst:10
+msgid "Installation"
+msgstr "Installation"
+
+# 55dec17daea14fbabed545aeba6a9ba6
+#: ../src/generic/Installation.rst:12
+msgid ""
+"This pages contains instructions on how to install this module on your "
+"machine. There are several ways to achieve that. Each method is described "
+"below."
+msgstr ""
+"Cette page contient les instructions permettant d'installer ce module "
+"sur votre machine. Il existe pour cela plusieurs méthodes. Chaque méthode "
+"est décrite ci-dessous."
+
+# a86b53be66ba42718b6ff808cf888a1d
+#: ../src/generic/Installation.rst:17
+msgid ""
+"You cannot mix the different methods. Especially, **you must use the same "
+"method to install this module as the one you selected for Erebot itself**."
+msgstr ""
+"Vous ne pouvez pas mélanger plusieurs méthodes. En particulier, **vous devez "
+"utiliser la même méthode pour installer ce module que celle utilisée pour "
+"installer Erebot**."
+
+# 9138eb9b792948f6bc93ab89cee32c5d
+#: ../src/generic/Installation.rst:24
+msgid ""
+"We recommend that you install this module using either its :ref:`PHAR package "
+"<install_phar>` or through :ref:`composer <install_composer>`. Installation "
+"from sources is reserved for advanced installations (eg. Erebot developers)."
+msgstr ""
+"Nous vous recommandons d'installer ce module soit via son :ref:`paquet PHAR "
+"<install_phar>`, soit via :ref:`composer <install_composer>`. L'installation "
+"depuis les sources est réservée aux utilisateurs avertis (p.ex. : les "
+"développeurs d'Erebot)."
+
+# ddab384e69a14ceaa1fb3ba10974382d
+#: ../src/generic/Installation.rst:34
+msgid "Installation using PHAR packages"
+msgstr "Installation via un paquet PHAR"
+
+# 4a46bfc939e940069d07e1bfbee31144
+#: ../src/generic/Installation.rst:36
+msgid ""
+"Installing |project| from a PHAR package is very easy. However, please note "
+"that Erebot must have been installed as a PHAR package for this method to "
+"work properly."
+msgstr ""
+"Installer |project| depuis un paquet PHAR est très facile. Cependant, "
+"vous devez vous assurer qu'Erebot a lui-même été installé via un paquet PHAR "
+"pour que cette méthode fonctionne correctement."
+
+# 42bb056249724a38b0d8bc415a7008ba
+#: ../src/generic/Installation.rst:43
+msgid "Preparations"
+msgstr "Préparations"
+
+# cf8b339fb6254ffaa1ef0ab3c05e6ea8
+#: ../src/generic/Installation.rst:45
+msgid ""
+"If you haven't done so already, create a directory in Erebot's folder named "
+"``modules``."
+msgstr ""
+"Si vous ne l'avez pas encore fait, créez un dossier nommé ``modules`` dans "
+"le répertoire d'Erebot."
+
+# cc65413871a545a6ae8a271c1588bcb6
+#: ../src/generic/Installation.rst:48
+msgid "Hence, your tree should look like this:"
+msgstr "Votre arborescence devrait donc ressembler à ça :"
+
+# 3d51cdb3698749e080377b1b2931325c
+#: ../src/generic/Installation.rst:52
+msgid "Erebot/"
+msgstr "Erebot/"
+
+# db27b08a2c664ea68cd9207781832bcd
+#: ../src/generic/Installation.rst:51
+msgid "Erebot-X.Y.Z.phar"
+msgstr "Erebot-X.Y.Z.phar"
+
+# 2314ea5466af48dbbb5efff8aae5fb6f
+#: ../src/generic/Installation.rst:52
+msgid "modules/"
+msgstr "modules/"
+
+# ea015442b49b454eac86ce5f6b87a8e9
+#: ../src/generic/Installation.rst:54
+msgid ""
+"Also, make sure your installation fulfills all of the :ref:`prerequisites` for "
+"this module."
+msgstr ""
+"Assurez-vous également que votre installation remplit les "
+":ref:`prérequis <prerequisites>` pour ce module."
+
+# 95b9709c8d6046e9968c2986a7313137
+#: ../src/generic/Installation.rst:58
+msgid "Downloading the package"
+msgstr "Téléchargement du paquet"
+
+# 493ddeda26e14b639a8608bb40f154e3
+#: ../src/generic/Installation.rst:60
+msgid ""
+"First, select the version you want to install. Available versions are listed "
+"on `Erebot's package repository <https://packages.erebot.net/>`."
+msgstr ""
+"Tout d'abord, sélectionnez la version que vous vooulez installer. "
+"Les versions disponibles sont listées sur le `dépôt de paquets d'Erebot "
+"<https://packages.erebot.net/>`."
+
+# a461ecf13dde49958995c024eaf152d5
+#: ../src/generic/Installation.rst:63
+msgid ""
+"The PHAR package for a certain version can be downloaded by using a URL such "
+"as |project_version| (replace `version` with the actual version you selected)."
+msgstr ""
+"Le paquet PHAR pour une version particulière peut être téléchargé en utilisant "
+"une URL de la forme |project_version| (remplacez `version` par la version "
+"voulue)."
+
+# 0a0f6fe21df641b887b4a4be065c8f00
+#: ../src/generic/Installation.rst:67
+msgid ""
+"As a special shortcut, the following link always points to the latest "
+"snapshot of |project|: |project_latest|."
+msgstr ""
+"En guise de raccourci, le lien suivant pointe toujours sur la dernière "
+"image disponible pour |project|: |project_latest|."
+
+# 9167d06603f14613905720d4d6dbf171
+#: ../src/generic/Installation.rst:72
+msgid ""
+"Using the latest snapshot available means that you may benefit from very "
+"recent developments, but it also means that the code may be in an unstable "
+"state. Use at your own risk."
+msgstr ""
+"L'utilisation de la dernière image signifie que vous bénéficiez des tous "
+"derniers développements, mais aussi que le code peut être dans un état "
+"instable. Vous êtes prévenus !"
+
+# da138eb7d37846279b9756b0afda6336
+#: ../src/generic/Installation.rst:76
+msgid ""
+"The PHAR package must be downloaded to your installation's :file:`modules/` "
+"directory."
+msgstr ""
+"Le paquet PHAR doit être téléchargé dans le dossier :file:`modules/` de votre "
+"installation."
+
+# ae7727b5d347410cb480634a43c96a28
+#: ../src/generic/Installation.rst:80
+msgid "Downloading the package's signature"
+msgstr "Téléchargement de la signature du paquet"
+
+# 1487337f62414b71b3c819f9a7b28e60
+#: ../src/generic/Installation.rst:82
+msgid ""
+"All the packages delivered by Erebot's developers are cryptographically "
+"signed using the \"OpenSSL\" algorithm in PHP's Phar extension. This "
+"signature is used to detect corrupted packages and packages that have been "
+"tampered with."
+msgstr ""
+"Tous les paquets générés par les développeurs d'Erebot sont signés "
+"électroniquement à l'aide de l'algorithme \"OpenSSL\" de l'extension PHP Phar. "
+"Cette signature est utilisée pour détecter les paquets corrompus ou "
+"malicieusement modifiés."
+
+# 6e0ff68440ac4cdf84e95f11ed0aee69
+#: ../src/generic/Installation.rst:87
+msgid ""
+"You must retrieve the signature corresponding to the version of the PHAR "
+"package you downloaded and put it alongside the package. The signature can be "
+"downloaded by appending ``.pubkey`` at the end of the link to the package "
+"itself. Therefore, the signature for the latest version can be downloaded "
+"from |project_latest_pubkey|."
+msgstr ""
+"Vous devez télécharger la signature correspondant à la version du paquet PHAR "
+"téléchargé et la placer à côté du paquet. La signature peut être téléchargée "
+"en ajoutant ``.pubkey`` à la fin du lien pointant vers le paquet lui-même. "
+"Ainsi, la signature correspondant à la dernière version est disponible sur "
+"|project_latest_pubkey|."
+
+# 7e67c3ccd9494e5f8add88a9fe7abc7d
+#: ../src/generic/Installation.rst:95
+msgid ""
+"PHP automatically checks the integrity of signed PHAR packages when they are "
+"loaded. Neither the name of the PHAR package nor the name of the signature "
+"file should be altered, as the integrity check would then fail."
+msgstr ""
+"PHP vérifie automatiquement l'intégrité des paquets PHAR signés lorsqu'ils "
+"sont chargés. Le nom du paquet PHAR et le nom du fichier de signature associé "
+"ne doivent pas être altérés, sans quoi la vérification d'intégrité échouera."
+
+# e7303715c16a4535a75c203b49e1b6d4
+#: ../src/generic/Installation.rst:101
+msgid ""
+"Although PHP automatically checks the integrity of cryptographically signed "
+"phar archives when they are loaded using the signature file, you may also "
+"check an archive manually by using the :command:`phar` command provided with "
+"the phar extension."
+msgstr ""
+"Bien que PHP vérifie automatiquement l'intégrité des archives phar signées "
+"électroniquement lorsqu'elles sont chargées grâce au fichier de signature, "
+"vous pouvez également examiner une archive manuellement en utilisant la "
+"commande :command:`phar` fournie avec l'extension phar."
+
+# 342b475e1ad141328fc6eb69bb214f28
+#: ../src/generic/Installation.rst:106
+msgid "For example, the following session shows a passing result."
+msgstr "Voici par exemple un examen dans lequel l'archive est valide :"
+
+# 5f358aab43d9404cb91fbcf0da0967e2
+#: ../src/generic/Installation.rst:115
+msgid ""
+"Note how the \"Hash-type\" field indicates that the \"OpenSSL\" algorithm has "
+"been used to sign the archive. **Any other value should be considered as if "
+"the check had failed**, unless the package was downloaded from Erebot's "
+"website over a secure (SSL/TLS) connection."
+msgstr ""
+"Notez que le champ \"Hash-type\" indique que l'algorithm \"OpenSSL\" a été "
+"utilisé pour signer l'archive. **Toute autre valeur doit être considérée "
+"comme un échec de la validation**, à moins que le paquet n'ait été téléchargé "
+"depuis le site web d'Erebot en utilisant une connexion sécurisée (SSL/TLS)."
+
+# 21a710ed2754450aa83574ff3fe20138
+#: ../src/generic/Installation.rst:120
+msgid ""
+"On the other hand, the following example shows a session where the "
+"verification failed."
+msgstr ""
+"A contrario, l'exemple suivant montre un examen dans lequel la vérification "
+"a échoué."
+
+# c6dd61e20e9e40aeb30f4754783d56ec
+#: ../src/generic/Installation.rst:130
+msgid "Conclusion"
+msgstr "Conclusion"
+
+# 555c7ed5434e45caacce4a19f1a99cd7
+#: ../src/generic/Installation.rst:132
+msgid ""
+"Once the PHAR package and its signature have been downloaded, your "
+"installation should look somewhat like that:"
+msgstr ""
+"Une fois le paquet PHAR et sa signature téléchargés, votre installation "
+"devrait ressembler à cela :"
+
+# c80c83b323454ff8bc5a76470c58778b
+#: ../src/generic/Installation.rst:143
+msgid ""
+"That's all folks! You may now add :ref:`configuration options <configuration>` for this module in "
+"Erebot's configuration file."
+msgstr ""
+"C'est tout ! Vous pouvez à présent ajouter des :ref:`options de configuration <configuration>` "
+"pour ce module dans le fichier de configuration d'Erebot."
+
+# 9c65896f8f12418f9ddd94623216fa98
+#: ../src/generic/Installation.rst:150
+msgid "Installation through Composer"
+msgstr "Installation via Composer"
+
+# 447d9184a510452c96215f9ec649c217
+#: ../src/generic/Installation.rst:152
+msgid ""
+"Installation through `Composer <http://getcomposer.org/>` is very easy. "
+"However, please note that Erebot itself must have been installed using "
+"Composer for this method to work properly."
+msgstr ""
+"L'installation en utilisant `Composer <http://getcomposer.org/>` est très simple. "
+"Cependant, vous devez vous assurer qu'Erebot a lui-même été installé via Composer "
+"pour que cette méthode fonctionne correctement."
+
+# 12a967bc5c8a441393c1c3b7cbb94850
+#: ../src/generic/Installation.rst:156
+msgid "To install the new module:"
+msgstr "Pour installer le nouveau module :"
+
+# 53432fcab4a8446fafeb713c8d41126e
+#: ../src/generic/Installation.rst:158
+msgid "Go to the directory where you installed Erebot."
+msgstr "Allez dans le dossier d'installation d'Erebot."
+
+# cc7fcaf214a34f5ba38650d54a6cdf78
+#: ../src/generic/Installation.rst:159
+msgid "Add the module to your installation's dependencies with:"
+msgstr "Ajoutez le module aux dépendances de votre installation :"
+
+# 1cbcc8a5b4dd42e187f367432cdd6981
+# 3457e718def549dbade09230d563f9db
+#: ../src/generic/Installation.rst:167 ../src/generic/Installation.rst:203
+msgid ""
+"You may now add :ref:`configuration options <configuration>` for this module in Erebot's "
+"configuration file."
+msgstr ""
+"Vous pouvez à présent ajouter des :ref:`options de configuration <configuration>` "
+"pour ce module dans le fichier de configuration d'Erebot."
+
+# 339658f240b349e1a3d2693f7c39955d
+#: ../src/generic/Installation.rst:172
+msgid "Installation from source"
+msgstr "Installation depuis les sources"
+
+# 213d3a69eaa9443d951317c5c6b4fc8c
+#: ../src/generic/Installation.rst:174
+msgid ""
+"Please note that Erebot itself must have been installed from source for this "
+"method to work."
+msgstr ""
+"Assurez-vous qu'Erebot lui-même a été installé depuis les sources si vous voulez "
+"que cette méthode ne fonctionne."
+
+# 198ec685d9e14e90b6c66a4005df29a0
+#: ../src/generic/Installation.rst:183
+msgid "First, make sure the git client is installed on your machine."
+msgstr "Tout d'abord, assurez-vous que votre machine dispose d'un client git."
+
+# 47f6dc82f9724f4ca74d6170b56b7351
+#: ../src/generic/Installation_git.inc:1
+msgid ""
+"Under Linux, **from a root shell**, run the command that most closely matches "
+"the tools provided for your distribution:"
+msgstr ""
+"Sous Linux, **depuis une interface système (shell) disposant des droits \"root\"**, "
+"exécutez la commande correspondant le mieux aux outils fournis par votre distribution :"
+
+# 7be939acae284d4c851380b27aaf119f
+#: ../src/generic/Installation_git.inc:17
+msgid ""
+"Windows users may be interested in installing `Git for Windows <http://msysgit.github.io/>` to get an "
+"equivalent git client. Also, make sure that the path to :file:`git.exe` is "
+"present on your account's :envvar:`PATH`. Otherwise, you'll have to replace :"
+"command:`git` by the full path to :file:`git.exe` on every invocation. Eg. :"
+msgstr ""
+"Les utilisateurs sous Windows peuvent installer `Git pour Windows <http://msysgit.github.io/>` "
+"afin d'obtenir un client git équivalent. Assurez-vous que le chemin vers :file:`git.exe` "
+"se trouve dans le :envvar:`PATH` de votre compte. Dans le cas contraire, vous devrez "
+"remplacer :command:`git` par le chemin complet jusqu'au fichier :file:`git.exe` "
+"lors de chaque appel à la commande. Par exemple :"
+
+# 1b14f174de81417789104cfd536f5c42
+#: ../src/generic/Installation_git.inc:23
+msgid ":samp:`\"{C:\\\\Program Files\\\\Git\\\\bin\\\\}git.exe\" clone ...`"
+msgstr ":samp:`\"{C:\\\\Program Files\\\\Git\\\\bin\\\\}git.exe\" clone ...`"
+
+# 1f2446a0d7844dcba0cf19ba09d56ea1
+#: ../src/generic/Installation.rst:187
+msgid "Now, clone the module's repository:"
+msgstr "À présent, clonez le dépôt du module :"
+
+# 04b69ff7ae684257b840478b358374c3
+#: ../src/generic/Installation.rst:195
+msgid ""
+"Last but not least, install the rest of this module's :ref:`prerequisites` and "
+"then run:"
+msgstr ""
+"Pour finir, installez le reste des :ref:`prérequis <prerequisites>` "
+"de ce module, puis exécutez :"

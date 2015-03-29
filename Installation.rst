@@ -43,14 +43,14 @@ Hence, your tree should look like this:
         * Erebot-X.Y.Z.phar
         * modules/
 
-Also, make sure your installation fulfills all of the `prerequisites`_
+Also, make sure your installation fulfills all of the :ref:`prerequisites`
 for this module.
 
 Downloading the package
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 First, select the version you want to install. Available versions are listed
-on `Erebot's package repository`_.
+on `Erebot's package repository <https://packages.erebot.net/>`.
 
 The PHAR package for a certain version can be downloaded by using a URL
 such as |project_version| (replace `version` with the actual version you
@@ -132,8 +132,8 @@ your installation should look somewhat like that:
             |project|-|release|.phar
             |project|-|release|.phar.pubkey
 
-That's all folks! You may now add `configuration options`_ for this module
-in Erebot's configuration file.
+That's all folks! You may now add :ref:`configuration options <configuration>`
+for this module in Erebot's configuration file.
 
 
 ..  _`install_composer`:
@@ -141,7 +141,7 @@ in Erebot's configuration file.
 Installation through Composer
 -----------------------------
 
-Installation through `Composer <http://getcomposer.org/>`_ is very easy.
+Installation through `Composer <http://getcomposer.org/>` is very easy.
 However, please note that Erebot itself must have been installed using Composer
 for this method to work properly.
 
@@ -156,8 +156,8 @@ To install the new module:
         $ php composer.phar require --no-update |composer_name|\=\ |version|
         $ php composer.phar update --no-dev
 
-*   You may now add `configuration options`_ for this module in Erebot's
-    configuration file.
+*   You may now add :ref:`configuration options <configuration>`
+    for this module in Erebot's configuration file.
 
 
 Installation from source
@@ -165,12 +165,6 @@ Installation from source
 
 Please note that Erebot itself must have been installed from source
 for this method to work.
-
-..  warning::
-
-    This method exists only for the sake of running Erebot on the now deprecated
-    PHP 5.2.x. Also, please note that depending on your environment, other actions
-    than the ones described here may be required to make this module work properly.
 
 First, make sure the git client is installed on your machine.
 
@@ -190,7 +184,7 @@ the tools provided for your distribution:
 
 ..  note::
 
-    Windows users may be interested in installing `Git for Windows`_ to get
+    Windows users may be interested in installing `Git for Windows <http://msysgit.github.io/>` to get
     an equivalent git client. Also, make sure that the path to :file:`git.exe`
     is present on your account's :envvar:`PATH`.
     Otherwise, you'll have to replace :command:`git` with the full path to
@@ -207,7 +201,7 @@ Now, clone the module's repository:
     $ mkdir -p erebot
     $ git clone git://github.com/Erebot/|project|.git |composer_name|
 
-Last but not least, install the rest of this module's `prerequisites`_
+Last but not least, install the rest of this module's :ref:`prerequisites`
 and then run:
 
 ..  parsed-code:: bash
@@ -215,23 +209,9 @@ and then run:
     $ cd /path/to/Erebot/vendor/|composer_name|
     $ /path/to/phing
 
-You may now add `configuration options`_ for this module in Erebot's
-configuration file.
+You may now add :ref:`configuration options <configuration>` for this module
+in Erebot's configuration file.
 
-..  _`Erebot's package repository`:
-    https://packages.erebot.net/
-..  _`gettext`:
-    http://www.gnu.org/s/gettext/
-..  _`Phing`:
-    http://www.phing.info/
-..  _`Erebot's prerequisites`:
-    /Erebot/Prerequisites.html
-..  _`prerequisites`:
-    ../Prerequisites.html
-..  _`configuration options`:
-    ../Configuration.html
-..  _`Git for Windows`:
-    http://msysgit.github.io/
 
 .. vim: ts=4 et
 
