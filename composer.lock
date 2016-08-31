@@ -1,24 +1,28 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "c6e4e16782ce0fae46a402d23258468a",
+    "content-hash": "21475a39e177f4f1ab6a2dc88283cf2a",
     "packages": [
         {
             "name": "erebot/installers",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Erebot/Erebot_Installers.git",
-                "reference": "8c73f6d95757d5aa863bf7b7c4213586c6cacc28"
+                "url": "https://github.com/Erebot/Installers.git",
+                "reference": "52ca55171cab59a64c26ea87966f1783596c1553"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/Erebot_Installers/zipball/8c73f6d95757d5aa863bf7b7c4213586c6cacc28",
-                "reference": "8c73f6d95757d5aa863bf7b7c4213586c6cacc28",
+                "url": "https://api.github.com/repos/Erebot/Installers/zipball/52ca55171cab59a64c26ea87966f1783596c1553",
+                "reference": "52ca55171cab59a64c26ea87966f1783596c1553",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
             },
             "type": "composer-installer",
             "extra": {
@@ -44,14 +48,14 @@
                 }
             ],
             "description": "Composer installers for Erebot",
-            "homepage": "https://github.com/Erebot/Erebot_Installers",
+            "homepage": "https://github.com/Erebot/Installers",
             "keywords": [
                 "Erebot",
                 "bot",
                 "installers",
                 "irc"
             ],
-            "time": "2015-03-29 11:41:36"
+            "time": "2016-08-20 11:20:13"
         }
     ],
     "packages-dev": [],
