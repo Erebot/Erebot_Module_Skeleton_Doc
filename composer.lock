@@ -4,25 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c6e4e16782ce0fae46a402d23258468a",
-    "content-hash": "21475a39e177f4f1ab6a2dc88283cf2a",
+    "hash": "c3c68ec06f9ed63e3cf25682643c9e0d",
+    "content-hash": "b4db7454921864cad92ca464e1e54354",
     "packages": [
         {
             "name": "erebot/installers",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Erebot/Installers.git",
-                "reference": "52ca55171cab59a64c26ea87966f1783596c1553"
+                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Erebot/Installers/zipball/52ca55171cab59a64c26ea87966f1783596c1553",
-                "reference": "52ca55171cab59a64c26ea87966f1783596c1553",
+                "url": "https://api.github.com/repos/Erebot/Installers/zipball/11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
+                "reference": "11bd431167ca9a0dc24959faa748d99cf2d2a5ce",
                 "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
             },
             "type": "composer-installer",
             "extra": {
@@ -32,8 +29,8 @@
                 "class": "Erebot\\Composer\\GenericDocInstaller"
             },
             "autoload": {
-                "psr-4": {
-                    "Erebot\\Composer\\": "src/"
+                "psr-0": {
+                    "Erebot\\Composer": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -48,21 +45,21 @@
                 }
             ],
             "description": "Composer installers for Erebot",
-            "homepage": "https://github.com/Erebot/Installers",
+            "homepage": "https://github.com/Erebot/Erebot_Installers",
             "keywords": [
                 "Erebot",
                 "bot",
                 "installers",
                 "irc"
             ],
-            "time": "2016-08-20 11:20:13"
+            "time": "2013-10-20 20:39:40"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []

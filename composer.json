@@ -1,5 +1,5 @@
 {
-    "minimum-stability": "dev",
+    "prefer-stable": true,
     "name": "erebot/generic-doc",
     "type": "erebot-generic-doc",
     "description": "Generic documentation for Erebot modules",
@@ -20,7 +20,7 @@
         "source": "https://github.com/Erebot/GenericDoc"
     },
     "require": {
-        "erebot/installers": "*"
+        "erebot/installers": "^1.0.0"
     },
     "extra": {
         "branch-alias": {
